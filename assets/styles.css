@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+html, body {
+	min-height: 100vh;
+}
+
+a:hover { cursor: pointer; }
+
+body {
+	background-image: url("/assets/background.jpg");
+	background-size: cover;
+	background-position: center;
+	padding-top: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Passion One', cursive;
+	color: #ffdb01;
+	text-shadow: 2px 2px 0 #1a1a1a, 2px -2px 0 #1a1a1a, -2px 2px 0 #1a1a1a, -2px -2px 0 #1a1a1a, 2px 0px 0 #1a1a1a, 0px 2px 0 #1a1a1a, -2px 0px 0 #1a1a1a, 0px -2px 0 #1a1a1a, 2px 2px 2px rgba(26,26,26,0);
+}
+h1 img {
+	height: 1em;
+}
+h1 {
+	font-size: 4em;
+}
+
+h2 {
+	font-size: 3em;
+}
+
+p, a {
+	font-family: 'Inter', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+	margin-bottom: -4em;
+	z-index: 100000;
+	position: relative;
+	bottom: -1em;
+}
+
+.blahaj-box {
+	border-radius: 16px;
+	background-color: #ececec;
+	padding: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.blahaj-divider {
+	border-style: solid;
+	border-width: 31px 5px 5px 5px;
+	-moz-border-image: url("/assets/just-blahaj.png") 433 0 0 0 repeat repeat;
+	-webkit-border-image: url("/assets/just-blahaj.png") 433 0 0 0 repeat repeat;
+	-o-border-image: url("/assets/just-blahaj.png") 433 0 0 0 repeat repeat;
+	border-image: url("/assets/just-blahaj.png") 433 0 0 0 repeat repeat;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.jack {
+	background-color: #351f65;
+	border-radius: 16px;
+	padding: 1em;
+	color: #9b90b3;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.jack img {
+	border-radius: 12px;
+	font-size: 0.7em;
+	width: 3em;
+	margin-right: 0.5em;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.plyr {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 16px;
+}
+
+.social-button {
+	width: 100%;
+	text-align: center;
+	display: block;
+	text-decoration: none;
+	color: #ececec;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 0.5em;
+	cursor: pointer;
+	transition: .2s ease-in-out;
+}
+
+.social-button:hover {
+	cursor: pointer;
+	transform: scale(1.02);
+	color: #ececec;
+	border-radius: 4px;
+}
+
+.social-button:first-child {
+	border-radius: 16px 16px 0 0;
+}
+
+.social-button:first-child:hover {
+	border-radius: 16px 16px 4px 4px;
+}
+
+.social-button:last-child {
+	border-radius: 0 0 16px 16px;
+}
+
+.social-button:last-child:hover {
+	border-radius: 4px 4px 16px 16px;
+}
+
+
+.twitter {
+	background-color: #1ea1f1;
+}
+
+.twitter:hover {
+	background-color: #0588D8;
+}
+
+.youtube {
+	background-color: #ff0000;
+}
+
+.youtube:hover {
+	background-color: #E60000;
+}
+
+.linkedin {
+	background-color: #0173b2;
+}
+
+.linkedin:hover {
+	background-color: #005A99;
+}
+
+@media only screen and (max-width: 992px) {
+	.no-padding {
+		margin-top: 1em;
+	}
+}
+
+.buy-blahaj {
+	width: 100%;
+	height: auto;
+	border-radius: 16px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-top: 1em;
+	cursor: pointer;
+	transition: .2s ease-in-out;
+}
+
+.buy-blahaj:hover {
+	transform: scale(1.02);
+}
+
+footer {
+	background-color: #1a1a1a;
+	color: #ffffff;
+	border-radius: 16px 16px 0 0;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding: 1em;
+	margin-top: 2em;
+}
+
+.copyright {
+	color: #8a8a8a;
+}
+
+.carousel__contents {
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.carousel__image {
+  height: 8em;
+  border-radius: 50%;
+  border: 2px solid #1a1a1a;
+}
+
+h2.carousel__caption {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+div.carousel__caption {
+	font-family: 'Passion One', cursive;
+	font-size: 1.5em;
+	margin-top: -1em;
+}
+
+p.carousel__txt {
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
+  font-style: italic;
+}
+
+h2.join {
+	text-align: center;
+	font-size: 6em;
+}
+
+p.soon {
+	text-align: center;
+	font-size: 4em;
+	font-family: 'Passion One', cursive;
+	margin-top: -0.5em;
+}
