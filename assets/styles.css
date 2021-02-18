@@ -158,6 +158,13 @@ a {
 	}
 }
 
+@media only screen and (max-width: 576px) {
+	h2.join {
+		font-size: 4em !important;
+	}
+}
+
+
 .buy-blahaj {
 	width: 100%;
 	height: auto;
